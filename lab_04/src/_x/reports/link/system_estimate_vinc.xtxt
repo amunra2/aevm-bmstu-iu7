@@ -1,0 +1,36 @@
+===============================================================================
+Version:    v++ v2020.2 (64-bit)
+Build:      SW Build (by xbuild) on 2020-11-18-05:13:29
+Copyright:  Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+Created:    Mon Dec 20 16:12:42 2021
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             vinc
+Target Device:           xilinx:u200:xdma:201830.2
+Target Clock:            300.000000MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name          Type  Target              OpenCL Library  Compute Units
+-------------------  ----  ------------------  --------------  -------------
+rtl_kernel_wizard_1  ip_c  fpga0:OCL_REGION_0  vinc            1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     vinc
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit  Kernel Name  Module Name  Target Frequency  Estimated Frequency
+------------  -----------  -----------  ----------------  -------------------
+
+Latency Information
+Compute Unit  Kernel Name  Module Name  Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+------------  -----------  -----------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+
+Area Information
+Compute Unit  Kernel Name  Module Name  FF  LUT  DSP  BRAM  URAM
+------------  -----------  -----------  --  ---  ---  ----  ----
+-------------------------------------------------------------------------------

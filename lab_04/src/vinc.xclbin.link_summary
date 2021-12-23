@@ -1,0 +1,1552 @@
+<ENTRY>
+{
+ "thisFile": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/vinc.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Dec 20 02:49:34 2021",
+ "timestampMillis": "1639957774803",
+ "buildStep": {
+  "cmdId": "40a66bd6-8b77-47cb-a5c1-73d20d4f60a0",
+  "name": "v++",
+  "logFile": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/link.steps.log",
+  "commandLine": "/data/Xilinx/Vitis/2020.2/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -l -t hw -o vinc.xclbin -f xilinx_u200_xdma_201830_2 rtl_kernel_wizard_1.xo --config config.cfg ",
+  "args": [
+   "-l",
+   "-t",
+   "hw",
+   "-o",
+   "vinc.xclbin",
+   "-f",
+   "xilinx_u200_xdma_201830_2",
+   "rtl_kernel_wizard_1.xo",
+   "--config",
+   "config.cfg"
+  ],
+  "iniFiles": [
+   {
+    "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/config.cfg",
+    "content": "[connectivity]\nnk=rtl_kernel_wizard_1:1:vinc0\nslr=vinc0:SLR1\nsp=vinc0.m00_axi:DDR[2]\n\n[vivado]\nprop=run.impl_1.STEPS.OPT_DESIGN.ARGS.DIRECTIVE=Explore\nprop=run.impl_1.STEPS.PLACE_DESIGN.ARGS.DIRECTIVE=Explore\nprop=run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true\nprop=run.impl_1.STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE=AggressiveExplore\nprop=run.impl_1.STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE=Explore"
+   }
+  ],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:49:34 2021",
+ "timestampMillis": "1639957774811",
+ "status": {
+  "cmdId": "40a66bd6-8b77-47cb-a5c1-73d20d4f60a0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Dec 20 02:50:40 2021",
+ "timestampMillis": "1639957840432",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u200_xdma_201830_2.xpfm",
+  "hardwareDsa": "xilinx_u200_xdma_201830_2.dsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u200_xdma_201830_2",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_LINK",
+  "target": "TT_HW",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "vinc",
+    "file": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/vinc.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "rtl_kernel_wizard_1",
+     "file": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/rtl_kernel_wizard_1.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [],
+    "psSources": [],
+    "cuNames": [
+     "vinc0"
+    ],
+    "type": "RTL",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2020.2. SW Build (by xbuild) on 2020-11-18-05:13:29"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 02:50:42 2021",
+ "timestampMillis": "1639957842069",
+ "buildStep": {
+  "cmdId": "8f05ddbc-c6cb-4004-9b30-b60c858eb3c5",
+  "name": "system_link",
+  "logFile": "",
+  "commandLine": "system_link --xo /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/rtl_kernel_wizard_1.xo --config /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u200_xdma_201830_2/xilinx_u200_xdma_201830_2.xpfm --target hw --output_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int --temp_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/sys_link",
+  "args": [
+   "--xo",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/rtl_kernel_wizard_1.xo",
+   "--config",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/syslinkConfig.ini",
+   "--xpfm",
+   "/opt/xilinx/platforms/xilinx_u200_xdma_201830_2/xilinx_u200_xdma_201830_2.xpfm",
+   "--target",
+   "hw",
+   "--output_dir",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int",
+   "--temp_dir",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/sys_link"
+  ],
+  "iniFiles": [
+   {
+    "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/syslinkConfig.ini",
+    "content": "nk=rtl_kernel_wizard_1:1:vinc0\nsp=vinc0.m00_axi:DDR[2]\nslr=vinc0:SLR1\n\n"
+   }
+  ],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:50:42 2021",
+ "timestampMillis": "1639957842073",
+ "status": {
+  "cmdId": "8f05ddbc-c6cb-4004-9b30-b60c858eb3c5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:52:05 2021",
+ "timestampMillis": "1639957925944",
+ "status": {
+  "cmdId": "8f05ddbc-c6cb-4004-9b30-b60c858eb3c5",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 02:52:06 2021",
+ "timestampMillis": "1639957926017",
+ "buildStep": {
+  "cmdId": "ea7cdf6b-5575-4def-a8f6-5a2fbb858b2f",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -sdsl /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/sdsl.dat -rtd /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/cf2sw.rtd -nofilter /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/cf2sw_full.rtd -xclbin /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xclbin_orig.xml -o /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xclbin_orig.1.xml",
+  "args": [
+   "-sdsl",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/sdsl.dat",
+   "-rtd",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/cf2sw.rtd",
+   "-nofilter",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/cf2sw_full.rtd",
+   "-xclbin",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xclbin_orig.xml",
+   "-o",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xclbin_orig.1.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:52:06 2021",
+ "timestampMillis": "1639957926020",
+ "status": {
+  "cmdId": "ea7cdf6b-5575-4def-a8f6-5a2fbb858b2f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:52:23 2021",
+ "timestampMillis": "1639957943642",
+ "status": {
+  "cmdId": "ea7cdf6b-5575-4def-a8f6-5a2fbb858b2f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 02:52:23 2021",
+ "timestampMillis": "1639957943710",
+ "buildStep": {
+  "cmdId": "3528471a-4075-454a-98cf-319069520cbf",
+  "name": "rtd2_system_diagram",
+  "logFile": "",
+  "commandLine": "rtd2SystemDiagram",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:52:23 2021",
+ "timestampMillis": "1639957943716",
+ "status": {
+  "cmdId": "3528471a-4075-454a-98cf-319069520cbf",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 02:52:34 2021",
+ "timestampMillis": "1639957954324",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/systemDiagramModel.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:52:34 2021",
+ "timestampMillis": "1639957954342",
+ "status": {
+  "cmdId": "3528471a-4075-454a-98cf-319069520cbf",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 02:52:34 2021",
+ "timestampMillis": "1639957954476",
+ "buildStep": {
+  "cmdId": "b5e19093-1757-4f57-b1a8-60cf91ab1b2d",
+  "name": "vpl",
+  "logFile": "",
+  "commandLine": "vpl -t hw -f xilinx_u200_xdma_201830_2 --remote_ip_cache /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/.ipcache --output_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int --log_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/logs/link --report_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link --config /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vplConfig.ini -k /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link --no-info --iprepo /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xo/ip_repo/mycompany_com_kernel_rtl_kernel_wizard_1_1_0 --messageDb /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/run_link/vpl.pb /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/dr.bd.tcl",
+  "args": [
+   "-t",
+   "hw",
+   "-f",
+   "xilinx_u200_xdma_201830_2",
+   "--remote_ip_cache",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/.ipcache",
+   "--output_dir",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int",
+   "--log_dir",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/logs/link",
+   "--report_dir",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link",
+   "--config",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vplConfig.ini",
+   "-k",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/kernel_info.dat",
+   "--webtalk_flag",
+   "Vitis",
+   "--temp_dir",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link",
+   "--no-info",
+   "--iprepo",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xo/ip_repo/mycompany_com_kernel_rtl_kernel_wizard_1_1_0",
+   "--messageDb",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/run_link/vpl.pb",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/dr.bd.tcl"
+  ],
+  "iniFiles": [
+   {
+    "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vplConfig.ini",
+    "content": "[advanced]\nmisc=report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\nmisc=report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\nparam=compiler.enablePerformanceTrace=1\nparam=compiler.vppCurrentWorkingDir=/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1\nmisc=BinaryName=vinc\n\n[connectivity]\nnk=rtl_kernel_wizard_1:1:vinc0\n\n[vivado]\nprop=run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\nprop=run.impl_1.STEPS.OPT_DESIGN.ARGS.DIRECTIVE=Explore\nprop=run.impl_1.STEPS.PLACE_DESIGN.ARGS.DIRECTIVE=Explore\nprop=run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true\nprop=run.impl_1.STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE=AggressiveExplore\nprop=run.impl_1.STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE=Explore\n\n"
+   }
+  ],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:52:34 2021",
+ "timestampMillis": "1639957954483",
+ "status": {
+  "cmdId": "b5e19093-1757-4f57-b1a8-60cf91ab1b2d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Dec 20 02:52:47 2021",
+ "timestampMillis": "1639957967487",
+ "buildStep": {
+  "cmdId": "43bd1bb0-f4ab-406c-b5fa-7c717d4ff240",
+  "name": "vpl",
+  "logFile": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/link.steps.log",
+  "commandLine": "/data/Xilinx/Vitis/2020.2/bin/unwrapped/lnx64.o/vpl -t hw -f xilinx_u200_xdma_201830_2 --remote_ip_cache /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/.ipcache --output_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int --log_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/logs/link --report_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link --config /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vplConfig.ini -k /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link --no-info --iprepo /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xo/ip_repo/mycompany_com_kernel_rtl_kernel_wizard_1_1_0 --messageDb /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/run_link/vpl.pb /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/dr.bd.tcl ",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:52:47 2021",
+ "timestampMillis": "1639957967491",
+ "status": {
+  "cmdId": "43bd1bb0-f4ab-406c-b5fa-7c717d4ff240",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_VivadoProject",
+ "dateTimestamp": "Mon Dec 20 02:56:28 2021",
+ "timestampMillis": "1639958188841",
+ "vivadoProject": {
+  "openDir": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl",
+  "openScript": "openprj.tcl",
+  "relativeProject": "prj/prj.xpr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 02:56:28 2021",
+ "timestampMillis": "1639958188864",
+ "buildStep": {
+  "cmdId": "fe2d1532-f637-4d86-883d-6a1fcfbd67d4",
+  "name": "vivado",
+  "logFile": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/vivado.log",
+  "commandLine": "vivado -log vivado.log -applog -m64 -messageDb vivado.pb -mode batch -source vpl.tcl -notrace",
+  "args": [
+   "-log",
+   "vivado.log",
+   "-applog",
+   " -m64",
+   "-messageDb",
+   "vivado.pb",
+   "-mode",
+   "batch",
+   "-source",
+   "vpl.tcl",
+   "-notrace"
+  ],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 02:56:28 2021",
+ "timestampMillis": "1639958188893",
+ "status": {
+  "cmdId": "fe2d1532-f637-4d86-883d-6a1fcfbd67d4",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 03:09:57 2021",
+ "timestampMillis": "1639958997185",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/debug_ip_layout.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "DEBUG_IP_LAYOUT"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:11:39 2021",
+ "timestampMillis": "1640005899317",
+ "status": {
+  "cmdId": "fe2d1532-f637-4d86-883d-6a1fcfbd67d4",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:44 2021",
+ "timestampMillis": "1640005904917",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/imp/impl_1_slr_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:44 2021",
+ "timestampMillis": "1640005904964",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/imp/impl_1_slr_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:45 2021",
+ "timestampMillis": "1640005905001",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/imp/impl_1_full_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:45 2021",
+ "timestampMillis": "1640005905029",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/imp/impl_1_slr_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:45 2021",
+ "timestampMillis": "1640005905050",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/imp/impl_1_slr_util_placed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:45 2021",
+ "timestampMillis": "1640005905097",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/imp/impl_1_full_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:53 2021",
+ "timestampMillis": "1640005913916",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_xbar_0_synth_1_pfm_dynamic_xbar_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:53 2021",
+ "timestampMillis": "1640005913942",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_vip_S04_AXI_0_synth_1_bd_d216_vip_S04_AXI_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:53 2021",
+ "timestampMillis": "1640005913964",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_ddr4_mem01_0_synth_1_bd_d216_ddr4_mem01_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:53 2021",
+ "timestampMillis": "1640005913988",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_psreset_gate_pr_kernel2_0_synth_1_pfm_dynamic_psreset_gate_pr_kernel2_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914021",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_axi_cdc_data_dynamic_0_synth_1_pfm_dynamic_axi_cdc_data_dynamic_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914041",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_axi_gpio_null_1_synth_1_pfm_dynamic_axi_gpio_null_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914064",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_axi_vip_ctrl_mgntpf_0_synth_1_pfm_dynamic_axi_vip_ctrl_mgntpf_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914085",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_axi_vip_data_dynamic_0_synth_1_pfm_dynamic_axi_vip_data_dynamic_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914110",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_axi_vip_data_m00_axi_0_synth_1_pfm_dynamic_axi_vip_data_m00_axi_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914140",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_freq_counter_0_0_synth_1_pfm_dynamic_freq_counter_0_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914167",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_regslice_control_mgntpf_0_synth_1_pfm_dynamic_regslice_control_mgntpf_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914188",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_regslice_control_userpf_1_synth_1_pfm_dynamic_regslice_control_userpf_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914210",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_regslice_data_dynamic_0_synth_1_pfm_dynamic_regslice_data_dynamic_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914250",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_regslice_data_m00_axi_0_synth_1_pfm_dynamic_regslice_data_m00_axi_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914268",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_logic_reset_op_0_synth_1_pfm_dynamic_logic_reset_op_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914288",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_psreset_gate_pr_control_1_synth_1_pfm_dynamic_psreset_gate_pr_control_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914310",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_psreset_gate_pr_data_1_synth_1_pfm_dynamic_psreset_gate_pr_data_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914333",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_psreset_gate_pr_ddrmem_1_0_synth_1_pfm_dynamic_psreset_gate_pr_ddrmem_1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914356",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_psreset_gate_pr_kernel_1_synth_1_pfm_dynamic_psreset_gate_pr_kernel_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914376",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_psreset_gate_pr_kernel2_1_synth_1_pfm_dynamic_psreset_gate_pr_kernel2_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914404",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_axi_cdc_data_1_synth_1_pfm_dynamic_axi_cdc_data_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914428",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_regslice_control_userpf_2_synth_1_pfm_dynamic_regslice_control_userpf_2_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914460",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_regslice_data_1_synth_1_pfm_dynamic_regslice_data_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914489",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_psreset_gate_pr_kernel_2_synth_1_pfm_dynamic_psreset_gate_pr_kernel_2_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914513",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_psreset_gate_pr_kernel2_2_synth_1_pfm_dynamic_psreset_gate_pr_kernel2_2_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914555",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_debug_bridge_xsdbm_0_synth_1_pfm_dynamic_debug_bridge_xsdbm_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914582",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_memory_subsystem_0_synth_1_pfm_dynamic_memory_subsystem_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914606",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_regslice_periph_null_0_synth_1_pfm_dynamic_regslice_periph_null_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914643",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_axi_cdc_data_0_synth_1_pfm_dynamic_axi_cdc_data_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914669",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_regslice_control_userpf_0_synth_1_pfm_dynamic_regslice_control_userpf_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914696",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_regslice_data_0_synth_1_pfm_dynamic_regslice_data_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914719",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_psreset_gate_pr_kernel_0_synth_1_pfm_dynamic_psreset_gate_pr_kernel_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914757",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_ebbe_lut_buffer_0_synth_1_bd_ebbe_lut_buffer_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914785",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_ebbe_xsdbm_0_synth_1_bd_ebbe_xsdbm_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914824",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_s00_regslice_9_synth_1_pfm_dynamic_s00_regslice_9_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914845",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_psr_aclk_SLR1_0_synth_1_bd_d216_psr_aclk_SLR1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914872",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_vip_S02_AXI_0_synth_1_bd_d216_vip_S02_AXI_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914896",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_psr_ddr4_mem01_0_synth_1_bd_d216_psr_ddr4_mem01_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914922",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_ddr4_mem01_ctrl_cc_0_synth_1_bd_d216_ddr4_mem01_ctrl_cc_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914951",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_calib_reduce_0_synth_1_bd_d216_calib_reduce_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:54 2021",
+ "timestampMillis": "1640005914997",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_psr_ctrl_interconnect_0_synth_1_bd_d216_psr_ctrl_interconnect_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915029",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_interconnect_ddrmem_ctrl_0_synth_1_bd_d216_interconnect_ddrmem_ctrl_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915060",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_vip_DDR4_MEM01_0_synth_1_bd_d216_vip_DDR4_MEM01_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915095",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_vip_ui_clk_DDR4_MEM01_0_synth_1_bd_d216_vip_ui_clk_DDR4_MEM01_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915135",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_vip_ui_rst_DDR4_MEM01_0_synth_1_bd_d216_vip_ui_rst_DDR4_MEM01_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915164",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_vip_ctrl_DDR4_MEM01_0_synth_1_bd_d216_vip_ctrl_DDR4_MEM01_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915188",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/bd_d216_interconnect_DDR4_MEM01_0_synth_1_bd_d216_interconnect_DDR4_MEM01_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915211",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_s00_regslice_10_synth_1_pfm_dynamic_s00_regslice_10_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915239",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_m01_regslice_0_synth_1_pfm_dynamic_m01_regslice_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915254",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/syn/pfm_dynamic_auto_cc_0_synth_1_pfm_dynamic_auto_cc_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:55 2021",
+ "timestampMillis": "1640005915795",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/imp/impl_1_xilinx_u200_xdma_201830_2_bb_locked_timing_summary_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:11:56 2021",
+ "timestampMillis": "1640005916358",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/imp/impl_1_xilinx_u200_xdma_201830_2_bb_locked_timing_summary_routed.rpx",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:21 2021",
+ "timestampMillis": "1640005941357",
+ "status": {
+  "cmdId": "43bd1bb0-f4ab-406c-b5fa-7c717d4ff240",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:21 2021",
+ "timestampMillis": "1640005941646",
+ "status": {
+  "cmdId": "b5e19093-1757-4f57-b1a8-60cf91ab1b2d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 16:12:21 2021",
+ "timestampMillis": "1640005941702",
+ "buildStep": {
+  "cmdId": "930864a1-c6d7-4fe6-9e04-5a03c8ec9928",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "rtdgen",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:21 2021",
+ "timestampMillis": "1640005941705",
+ "status": {
+  "cmdId": "930864a1-c6d7-4fe6-9e04-5a03c8ec9928",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:12:21 2021",
+ "timestampMillis": "1640005941789",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc_xml.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "XCLBIN_INFO"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 16:12:21 2021",
+ "timestampMillis": "1640005941845",
+ "buildStep": {
+  "cmdId": "456153a7-f4f7-4cb9-863a-3525abc772d9",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -a /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/address_map.xml -sdsl /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/sdsl.dat -xclbin /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xclbin_orig.xml -rtd /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc.rtd -o /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc.xml",
+  "args": [
+   "-a",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/address_map.xml",
+   "-sdsl",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/sdsl.dat",
+   "-xclbin",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xclbin_orig.xml",
+   "-rtd",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc.rtd",
+   "-o",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:21 2021",
+ "timestampMillis": "1640005941851",
+ "status": {
+  "cmdId": "456153a7-f4f7-4cb9-863a-3525abc772d9",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:36 2021",
+ "timestampMillis": "1640005956389",
+ "status": {
+  "cmdId": "456153a7-f4f7-4cb9-863a-3525abc772d9",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:12:36 2021",
+ "timestampMillis": "1640005956420",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/systemDiagramModelSlrBaseAddress.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 16:12:36 2021",
+ "timestampMillis": "1640005956425",
+ "buildStep": {
+  "cmdId": "51536b8b-8d1e-4ea3-a7ad-8d4938f1fca7",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeSystemDiagram",
+  "args": [
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc.rtd",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/systemDiagramModelSlrBaseAddress.json"
+  ],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:36 2021",
+ "timestampMillis": "1640005956427",
+ "status": {
+  "cmdId": "51536b8b-8d1e-4ea3-a7ad-8d4938f1fca7",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:36 2021",
+ "timestampMillis": "1640005956453",
+ "status": {
+  "cmdId": "51536b8b-8d1e-4ea3-a7ad-8d4938f1fca7",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:36 2021",
+ "timestampMillis": "1640005956467",
+ "status": {
+  "cmdId": "930864a1-c6d7-4fe6-9e04-5a03c8ec9928",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 16:12:36 2021",
+ "timestampMillis": "1640005956536",
+ "buildStep": {
+  "cmdId": "e512e26a-59a8-421b-817a-1e7b7ff7045e",
+  "name": "xclbinutil",
+  "logFile": "",
+  "commandLine": "xclbinutil --add-section DEBUG_IP_LAYOUT:JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/debug_ip_layout.rtd --add-section BITSTREAM:RAW:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc.rtd --append-section :JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc_xml.rtd --add-section BUILD_METADATA:JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc_build.rtd --add-section EMBEDDED_METADATA:RAW:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc.xml --add-section SYSTEM_METADATA:RAW:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/systemDiagramModelSlrBaseAddress.json --output /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/vinc.xclbin",
+  "args": [
+   "--add-section",
+   "DEBUG_IP_LAYOUT:JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/debug_ip_layout.rtd",
+   "--add-section",
+   "BITSTREAM:RAW:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/partial.bit",
+   "--force",
+   "--target",
+   "hw",
+   "--key-value",
+   "SYS:dfx_enable:true",
+   "--add-section",
+   ":JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc.rtd",
+   "--append-section",
+   ":JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/appendSection.rtd",
+   "--add-section",
+   "CLOCK_FREQ_TOPOLOGY:JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc_xml.rtd",
+   "--add-section",
+   "BUILD_METADATA:JSON:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc_build.rtd",
+   "--add-section",
+   "EMBEDDED_METADATA:RAW:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/vinc.xml",
+   "--add-section",
+   "SYSTEM_METADATA:RAW:/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/systemDiagramModelSlrBaseAddress.json",
+   "--output",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/vinc.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:36 2021",
+ "timestampMillis": "1640005956542",
+ "status": {
+  "cmdId": "e512e26a-59a8-421b-817a-1e7b7ff7045e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:38 2021",
+ "timestampMillis": "1640005958732",
+ "status": {
+  "cmdId": "e512e26a-59a8-421b-817a-1e7b7ff7045e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 16:12:38 2021",
+ "timestampMillis": "1640005958783",
+ "buildStep": {
+  "cmdId": "43a8601e-95cc-4166-bb80-ac63af1d6272",
+  "name": "xclbinutilinfo",
+  "logFile": "",
+  "commandLine": "xclbinutil --quiet --force --info /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/vinc.xclbin.info --input /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/vinc.xclbin",
+  "args": [
+   "--quiet",
+   "--force",
+   "--info",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/vinc.xclbin.info",
+   "--input",
+   "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/vinc.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:38 2021",
+ "timestampMillis": "1640005958791",
+ "status": {
+  "cmdId": "43a8601e-95cc-4166-bb80-ac63af1d6272",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:42 2021",
+ "timestampMillis": "1640005962385",
+ "status": {
+  "cmdId": "43a8601e-95cc-4166-bb80-ac63af1d6272",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Dec 20 16:12:42 2021",
+ "timestampMillis": "1640005962427",
+ "buildStep": {
+  "cmdId": "c5266150-1c1c-4894-ba85-1a5abdbc624e",
+  "name": "generate_sc_driver",
+  "logFile": "",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:42 2021",
+ "timestampMillis": "1640005962431",
+ "status": {
+  "cmdId": "c5266150-1c1c-4894-ba85-1a5abdbc624e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:12:42 2021",
+ "timestampMillis": "1640005962448",
+ "status": {
+  "cmdId": "c5266150-1c1c-4894-ba85-1a5abdbc624e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:12:42 2021",
+ "timestampMillis": "1640005962588",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/system_estimate_vinc.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:13:05 2021",
+ "timestampMillis": "1640005985024",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/v++_link_vinc_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:13:05 2021",
+ "timestampMillis": "1640005985031",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/v++_link_vinc_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Dec 20 16:13:05 2021",
+ "timestampMillis": "1640005985071",
+ "report": {
+  "path": "/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/logs/optraceViewer.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "OPERATION_TRACE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Dec 20 16:13:05 2021",
+ "timestampMillis": "1640005985094",
+ "status": {
+  "cmdId": "40a66bd6-8b77-47cb-a5c1-73d20d4f60a0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

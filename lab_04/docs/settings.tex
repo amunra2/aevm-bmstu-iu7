@@ -48,8 +48,8 @@
 
 % Для листинга кода:
 \lstset{%
-	language=python,   					% выбор языка для подсветки	
-	basicstyle=\small\sffamily,			% размер и начертание шрифта для подсветки кода
+	language=c++,   					% выбор языка для подсветки	
+	basicstyle=\tiny,			% размер и начертание шрифта для подсветки кода
 	numbers=left,						% где поставить нумерацию строк (слева\справа)
 	%numberstyle=,					% размер шрифта для номеров строк
 	stepnumber=1,						% размер шага между двумя номерами строк
@@ -58,11 +58,10 @@
 	tabsize=4,							% размер табуляции по умолчанию равен 4 пробелам
 	captionpos=t,						% позиция заголовка вверху [t] или внизу [b]
 	breaklines=true,					
-	breakatwhitespace=true,				% переносить строки только если есть пробел
+	breakatwhitespace=false,				% переносить строки только если есть пробел
 	escapeinside={\#*}{*)},				% если нужно добавить комментарии в коде
 	backgroundcolor=\color{white},
 }
-
 
 \usepackage{pgfplots}
 \usetikzlibrary{datavisualization}

@@ -6,6 +6,6 @@
 \contentsline {section}{\numberline {2.1}Моделирование исходного проекта VINC}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Моделирование проекта VINC, измененного по индивидульному варианту}{9}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Линковка проекта}{11}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Тестирование}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Тестирование}{11}{section.2.4}%
 \contentsline {chapter}{Заключение}{13}{chapter*.14}%
 \contentsline {chapter}{Приложение}{14}{chapter*.15}%
