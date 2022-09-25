@@ -1,0 +1,25 @@
+Mon Dec 20 02:49:50 2021: Server was asked to start on port: '45023'
+Mon Dec 20 02:49:50 2021: Server is using token UUID: '1acc2694-a8f7-41fc-ab7b-edb1e0c630b6'
+Mon Dec 20 02:49:50 2021: Attempting to start server on port '45023'
+Mon Dec 20 02:49:50 2021: XRC main fifo: created main fifo '/tmp/xrcmain1acc2694-a8f7-41fc-ab7b-edb1e0c630b6', fd read = 13
+Mon Dec 20 02:49:50 2021: Running Rule Check Server
+Mon Dec 20 02:49:50 2021: Version 1.6.1
+Mon Dec 20 02:49:51 2021: XRC main fifo: starting fifo connection xrc9c516d58-d471-41ad-adfb-4492ccde91ff
+Mon Dec 20 02:49:51 2021: Connection attempt to create read fifo /tmp/xrc9c516d58-d471-41ad-adfb-4492ccde91ff_0
+Mon Dec 20 02:49:51 2021: Connection attempt to create write fifo /tmp/xrc9c516d58-d471-41ad-adfb-4492ccde91ff_1
+Mon Dec 20 02:49:51 2021: starting FifoConnection
+Mon Dec 20 02:49:51 2021: EXCHANGE_TOKEN received, server token: 1acc2694-a8f7-41fc-ab7b-edb1e0c630b6, passed token: 1acc2694-a8f7-41fc-ab7b-edb1e0c630b6
+Mon Dec 20 02:49:51 2021: SESSION_MGR: creating session with session uuid: 'cf33d287-ad15-424c-855f-06ed750a9e70' and name 'v++_link_vinc'
+Mon Dec 20 02:50:54 2021: XRC main fifo: starting fifo connection xrc8c02579e-e87d-4bd4-8bac-10cd23b407c9
+Mon Dec 20 02:50:54 2021: Connection attempt to create read fifo /tmp/xrc8c02579e-e87d-4bd4-8bac-10cd23b407c9_0
+Mon Dec 20 02:50:54 2021: Connection attempt to create write fifo /tmp/xrc8c02579e-e87d-4bd4-8bac-10cd23b407c9_1
+Mon Dec 20 02:50:54 2021: starting FifoConnection
+Mon Dec 20 02:58:00 2021: XRC main fifo: starting fifo connection xrc8c5fb4ea-b899-4d3b-99d7-1c56bfd4d2fd
+Mon Dec 20 02:58:00 2021: Connection attempt to create read fifo /tmp/xrc8c5fb4ea-b899-4d3b-99d7-1c56bfd4d2fd_0
+Mon Dec 20 02:58:00 2021: Connection attempt to create write fifo /tmp/xrc8c5fb4ea-b899-4d3b-99d7-1c56bfd4d2fd_1
+Mon Dec 20 02:58:00 2021: starting FifoConnection
+Mon Dec 20 05:20:52 2021: XRC main fifo: starting fifo connection xrc5bcd4aa0-c404-4afd-bac7-90178766f019
+Mon Dec 20 05:20:52 2021: Connection attempt to create read fifo /tmp/xrc5bcd4aa0-c404-4afd-bac7-90178766f019_0
+Mon Dec 20 05:20:52 2021: Connection attempt to create write fifo /tmp/xrc5bcd4aa0-c404-4afd-bac7-90178766f019_1
+Mon Dec 20 05:20:52 2021: starting FifoConnection
+Mon Dec 20 16:13:04 2021: SESSION_MGR: closing session for UUID 'cf33d287-ad15-424c-855f-06ed750a9e70' with name 'v++_link_vinc'

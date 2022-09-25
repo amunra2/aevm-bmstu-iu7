@@ -1,0 +1,14 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\numberline {1}Теоритические основы}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Методология ускорения вычислений на основе ПЛИС}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Оптимизация времени обработки и пропускной способности}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Конвейерная обработка циклов}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Разворачивание циклов}{7}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Потоковая обработка}{7}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}Выполнение лабораторной работы}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Функции ядра по индивидуальному варианту}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Режим Emulation-SW}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Режим Emulation-HW}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Режим HardWare}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Обоснование результатов и выводы}{16}{section.2.5}%
+\contentsline {chapter}{Заключение}{17}{chapter*.16}%

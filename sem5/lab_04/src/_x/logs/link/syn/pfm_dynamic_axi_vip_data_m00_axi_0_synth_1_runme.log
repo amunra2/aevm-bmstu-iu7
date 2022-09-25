@@ -1,0 +1,283 @@
+
+*** Running vivado
+    with args -log pfm_dynamic_axi_vip_data_m00_axi_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source pfm_dynamic_axi_vip_data_m00_axi_0.tcl
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source pfm_dynamic_axi_vip_data_m00_axi_0.tcl -notrace
+INFO: Dispatch client connection id - 35321
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 2416.945 ; gain = 2.016 ; free physical = 5307 ; free virtual = 145633
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/int/xo/ip_repo/mycompany_com_kernel_rtl_kernel_wizard_1_1_0'.
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_gt_if:1.0' found within IP repository '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_gt_if.xml
+File ignored: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0' found within IP repository '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom.xml
+File ignored: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:int_gtcom_rtl:1.0' found within IP repository '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_usp_int_gtcom_rtl.xml
+File ignored: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0' found within IP repository '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_usp_int_gtcom.xml
+File ignored: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom_rtl:1.0' found within IP repository '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+File ignored: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_gt_if_rtl:1.0' found within IP repository '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_gt_if_rtl.xml
+File ignored: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if_rtl.xml
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/data/Xilinx/Vitis/2020.2/data/cache/xilinx'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/data/Xilinx/Vitis/2020.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/data/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:xdma:4.1'. The one found in IP location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pcie4_uscale_plus:1.3'. The one found in IP location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie4_us_plus_transceiver_debug:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_us_plus_transceiver_debug.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/qdma_v4_0/interfaces/pcie4_us_plus_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_status_ports:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/xdma_status_ports.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/qdma_v4_0/interfaces/xdma_status_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie3_7x_transceiver_debug.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/qdma_v4_0/interfaces/pcie3_7x_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:pcie3_us_gt_if:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie3_us_gt_if.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie3_ultrascale_v4_4/interfaces/pcie3_us_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_us_transceiver_debug:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie3_us_transceiver_debug.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/qdma_v4_0/interfaces/pcie3_us_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:dsc_bypass:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/dsc_bypass.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/qdma_v4_0/interfaces/dsc_bypass.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_if:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_gt_if.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:int_shared_logic:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie3_us_int_shared_logic.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/qdma_v4_0/interfaces/pcie3_us_int_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie4_usp_int_gtcom.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_debug_ports:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/xdma_debug_ports.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/qdma_v4_0/interfaces/xdma_debug_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:ext_shared_logic:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie3_us_ext_shared_logic.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/axi_pcie3_v3_0/interfaces/pcie3_us_ext_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_cfg_external_msix:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie_cfg_ext_msix.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_debug:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/xdma_v4_1/interfaces/pcie_debug.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/qdma_v4_0/interfaces/pcie_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_external:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_pm:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_pm.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_pm.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:transceiver_debug:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/transceiver_debug.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_status:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_status.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_status.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_rbar:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_rbar.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_rbar.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pcie_id:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_pcie_id.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pcie_id.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_external_msix:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_ext_msix.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_control:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_control.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_control.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pl:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_pl.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_mgmt:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_mgmt.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_mgmt.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_internal:1.0'. The one found in location '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/.local/hw_platform/iprepo/iprepo/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix_int.xml' will take precedence over the same Interface in location '/data/Xilinx/Vivado/2020.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix_int.xml'
+update_ip_catalog: Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 2416.945 ; gain = 0.000 ; free physical = 3099 ; free virtual = 143448
+Command: synth_design -top pfm_dynamic_axi_vip_data_m00_axi_0 -part xcu200-fsgd2104-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcu200'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcu200'
+INFO: [Device 21-403] Loading part xcu200-fsgd2104-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 1 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8836
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 3071.539 ; gain = 214.691 ; free physical = 6549 ; free virtual = 129643
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'pfm_dynamic_axi_vip_data_m00_axi_0' [/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/bd/ip/pfm_dynamic_axi_vip_data_m00_axi_0/synth/pfm_dynamic_axi_vip_data_m00_axi_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'axi_vip_v1_1_8_top' [/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/pfm_dynamic/ipshared/94c3/hdl/axi_vip_v1_1_vlsyn_rfs.sv:61]
+	Parameter C_AXI_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_AXI_INTERFACE_MODE bound to: 1 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 39 - type: integer 
+	Parameter C_AXI_WDATA_WIDTH bound to: 512 - type: integer 
+	Parameter C_AXI_RDATA_WIDTH bound to: 512 - type: integer 
+	Parameter C_AXI_WID_WIDTH bound to: 0 - type: integer 
+	Parameter C_AXI_RID_WIDTH bound to: 0 - type: integer 
+	Parameter C_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_AXI_SUPPORTS_NARROW bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_BURST bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_LOCK bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_CACHE bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_REGION bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_PROT bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_QOS bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_WSTRB bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_BRESP bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_RRESP bound to: 1 - type: integer 
+	Parameter C_AXI_HAS_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axi_vip_v1_1_8_top' (1#1) [/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/pfm_dynamic/ipshared/94c3/hdl/axi_vip_v1_1_vlsyn_rfs.sv:61]
+INFO: [Synth 8-6155] done synthesizing module 'pfm_dynamic_axi_vip_data_m00_axi_0' (2#1) [/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/bd/ip/pfm_dynamic_axi_vip_data_m00_axi_0/synth/pfm_dynamic_axi_vip_data_m00_axi_0.sv:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 3126.445 ; gain = 269.598 ; free physical = 6609 ; free virtual = 129724
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 3142.289 ; gain = 285.441 ; free physical = 5771 ; free virtual = 128888
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 3142.289 ; gain = 285.441 ; free physical = 5763 ; free virtual = 128880
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3142.289 ; gain = 0.000 ; free physical = 4391 ; free virtual = 127509
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/bd/ip/pfm_dynamic_axi_vip_data_m00_axi_0/pfm_dynamic_axi_vip_data_m00_axi_0_ooc.xdc] for cell 'inst'
+create_clock: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 3185.914 ; gain = 2.969 ; free physical = 7330 ; free virtual = 128909
+Finished Parsing XDC File [/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/bd/ip/pfm_dynamic_axi_vip_data_m00_axi_0/pfm_dynamic_axi_vip_data_m00_axi_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.runs/pfm_dynamic_axi_vip_data_m00_axi_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.runs/pfm_dynamic_axi_vip_data_m00_axi_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3185.914 ; gain = 0.000 ; free physical = 7367 ; free virtual = 128946
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.37 ; elapsed = 00:00:00.52 . Memory (MB): peak = 3185.914 ; gain = 0.000 ; free physical = 7447 ; free virtual = 129028
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:10 ; elapsed = 00:01:34 . Memory (MB): peak = 3185.914 ; gain = 329.066 ; free physical = 7490 ; free virtual = 129085
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcu200-fsgd2104-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:10 ; elapsed = 00:01:34 . Memory (MB): peak = 3185.914 ; gain = 329.066 ; free physical = 7444 ; free virtual = 129038
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.runs/pfm_dynamic_axi_vip_data_m00_axi_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:10 ; elapsed = 00:01:34 . Memory (MB): peak = 3185.914 ; gain = 329.066 ; free physical = 7386 ; free virtual = 128980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:10 ; elapsed = 00:01:35 . Memory (MB): peak = 3185.914 ; gain = 329.066 ; free physical = 7486 ; free virtual = 129081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 6840 (col length:120)
+BRAMs: 4320 (col length: RAMB18 360 RAMB36 180)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:15 ; elapsed = 00:01:40 . Memory (MB): peak = 3185.914 ; gain = 329.066 ; free physical = 7246 ; free virtual = 128852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:19 ; elapsed = 00:03:47 . Memory (MB): peak = 3506.672 ; gain = 649.824 ; free physical = 3508 ; free virtual = 116617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:19 ; elapsed = 00:03:47 . Memory (MB): peak = 3506.672 ; gain = 649.824 ; free physical = 3428 ; free virtual = 116537
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:19 ; elapsed = 00:03:47 . Memory (MB): peak = 3526.711 ; gain = 669.863 ; free physical = 3202 ; free virtual = 116311
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:30 ; elapsed = 00:03:59 . Memory (MB): peak = 3530.680 ; gain = 673.832 ; free physical = 4375 ; free virtual = 117493
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:30 ; elapsed = 00:03:59 . Memory (MB): peak = 3530.680 ; gain = 673.832 ; free physical = 4370 ; free virtual = 117488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:30 ; elapsed = 00:03:59 . Memory (MB): peak = 3530.680 ; gain = 673.832 ; free physical = 4345 ; free virtual = 117463
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:30 ; elapsed = 00:03:59 . Memory (MB): peak = 3530.680 ; gain = 673.832 ; free physical = 4345 ; free virtual = 117463
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:30 ; elapsed = 00:03:59 . Memory (MB): peak = 3530.680 ; gain = 673.832 ; free physical = 4390 ; free virtual = 117508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:30 ; elapsed = 00:03:59 . Memory (MB): peak = 3530.680 ; gain = 673.832 ; free physical = 4415 ; free virtual = 117534
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:30 ; elapsed = 00:03:59 . Memory (MB): peak = 3530.680 ; gain = 673.832 ; free physical = 4419 ; free virtual = 117537
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:01 ; elapsed = 00:03:21 . Memory (MB): peak = 3530.680 ; gain = 630.207 ; free physical = 4314 ; free virtual = 117433
+Synthesis Optimization Complete : Time (s): cpu = 00:02:30 ; elapsed = 00:03:59 . Memory (MB): peak = 3530.688 ; gain = 673.832 ; free physical = 4339 ; free virtual = 117457
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3530.688 ; gain = 0.000 ; free physical = 3870 ; free virtual = 116991
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3604.688 ; gain = 0.000 ; free physical = 3659 ; free virtual = 116773
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:44 ; elapsed = 00:05:48 . Memory (MB): peak = 3618.625 ; gain = 1201.680 ; free physical = 3045 ; free virtual = 116159
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.runs/pfm_dynamic_axi_vip_data_m00_axi_0_synth_1/pfm_dynamic_axi_vip_data_m00_axi_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP pfm_dynamic_axi_vip_data_m00_axi_0, cache-ID = fd42ced03c0704de
+INFO: [Common 17-1381] The checkpoint '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/link/vivado/vpl/prj/prj.runs/pfm_dynamic_axi_vip_data_m00_axi_0_synth_1/pfm_dynamic_axi_vip_data_m00_axi_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file pfm_dynamic_axi_vip_data_m00_axi_0_utilization_synth.rpt -pb pfm_dynamic_axi_vip_data_m00_axi_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 20 03:30:22 2021...
