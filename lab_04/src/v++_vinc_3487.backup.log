@@ -1,7 +1,0 @@
-INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
-	Reports: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link
-	Log files: /iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/logs/link
-INFO: [v++ 60-1548] Creating build summary session with primary output /workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/vinc.xclbin.link_summary, at Mon Dec 20 02:43:13 2021
-WARNING: [v++ 60-1546] Build summary exception in startSession. Summary may not be produced. Exception: write: Bad file descriptor
-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Mon Dec 20 02:43:13 2021
-INFO: [v++ 60-1315] Creating rulecheck session with output '/iu_home/iu7137/workspace/iu7_53b_19_lab01_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_1/_x/reports/link/v++_link_vinc_guidance.html', at Mon Dec 20 02:43:29 2021
